@@ -54,12 +54,12 @@ function Hero() {
       </div>
 
       {/* Healthy in side fresh out side */}
-      <div className="md:flex w-[85%] sm:my-10 mt-[70px]  m-auto sm:w-[100%] items-center justify-between sm:px-[200px] sm:py-[55px]">
-        <div className="sm:w-[558px] sm:h-[146px]  sm:text-[46px] w-[100%] text-[35px] ml-0">
+      <div className="md:flex w-[80%]  sm:my-10 mt-[70px]  m-auto sm:w-[100%] items-center justify-between sm:px-[200px] sm:py-[55px]">
+        <div className="sm:w-[558px] sm:h-[146px] font-medium  sm:text-[66px] w-[100%] text-[35px] ml-0">
           <h2>Healthy in side fresh out side</h2>
         </div>
-        <div className=" sm:w-[674px] w-[95%] mt-3   h-[112px] sm:text-[16px] text-[14px] text-justify opacity-[50%]">
-          <p>
+        <div className=" sm:w-[674px] w-[95%] mt-3  h-[112px] sm:text-[16px] text-[14px] text-justify opacity-[50%]">
+          <p className="sm:leading-8 leading-1 ">
             Exercise is a very important need for our body. Health and fitness
             will be obtained if you can do regular exercise and run a healthy
             routine. Even at home we still have to be diligent in exercising,
@@ -98,17 +98,17 @@ function Hero() {
             </p>
           </div>
         </div>
-        <div className=" flex justify-center items-center ">
+        <div className=" flex justify-center items-center mb-10 ">
           <div className="bg-indigo-300 sm:py-5 py-3 rounded-2xl sm:px-7 px-5 mr-10">
-            <Image src="/man-3.png" alt="man" width="50" height="50" />
+            <Image src="/man-3.png" alt="man-3" width="50" height="50" />
           </div>
           <div>
             <p className=" sm:text-[25px] text-[16px] sm:font-bold font-medium">
-              Get flat belly <br /> in 30 days
+            Get flat belly <br/> in 30 days
             </p>
             <p className=" mt-5 text-indigo-200 font-light">
               Learn more{" "}
-              <i className=" fa-solid fa-arrow-right-long ml-3 text-gray-500" />{" "}
+              <i className=" fa-solid fa-arrow-right-long ml-3 text-gray-600" />
             </p>
           </div>
         </div>
@@ -117,7 +117,7 @@ function Hero() {
       <div className=" sm:flex justify-between my-10 items-center w-[85%] m-auto">
         <div className=" sm:hidden mt-10 block">
           <div>
-            <h2 className=" sm:text-[40px] w-[85%] text-[37px] text-[#262524] font-bold ">
+            <h2 className=" sm:text-[40px] w-[85%] text-[40px] text-[#262524] font-medium ">
               Best full body <br /> workout to lose fat
             </h2>
             <div className="sm:w-[674px] w-[95%] mt-2 mb-10   h-[112px] sm:text-[16px] text-[14px] text-justify opacity-[50%]">
@@ -131,7 +131,7 @@ function Hero() {
 
             <div className="flex sm:mt-[80px] mb-20 w-[50%] items-center justify-center cursor-pointer shadow-2xl bg-[#264373] sm:py-4 py-3 sm:px-3 px-3 text-[13px] sm:text-[16px] text-[white] rounded-md">
               <p className="sm:pr-10">Get started</p>
-              <i className=" fa-solid fa-circle-play ml-20 text-white" />
+              <i className=" fa-solid fa-circle-play sm:ml-20 ml-10 text-white" />
             </div>
           </div>
         </div>
